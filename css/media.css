@@ -1,0 +1,119 @@
+@media screen and (max-width: 930px) {
+  .header_top_block h1 {
+    width: 250px;
+  }
+
+  .question {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    display: none;
+  }
+  .burger_menu {
+    z-index: 1;
+    height: auto;
+  }
+ 
+  .burger_menu a {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 931px) {
+  .burger_nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .header_top_block {
+    flex-direction: column;
+  }
+  .header_top_block img {
+    width: 98px;
+    height: 97px;
+  }
+  .header_top_block h1 {
+    font-size: 18px;
+    /* font-weight: 400; */
+  }
+  .menu_icon {
+    display: flex;
+    position: relative;
+    top: 16px;
+    left: 21px;
+  }
+  .question {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .card {
+    flex: 0 1 100%;
+  }
+  .question .card {
+    width: 70%;
+  }
+  .question .text {
+    font-size: 18px;
+  }
+  .text__about_app {
+    font-size: 18px;
+    line-height: 56px;
+  }
+
+  .about__title {
+    font-size: 18px;
+    line-height: 55px;
+  }
+  .about__disc {
+    width: 85%;
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .download__title {
+    font-size: 18px;
+    line-height: 0px;
+  }
+  .icons img {
+    width: 100px;
+    height: 92px;
+    object-fit: contain;
+  }
+  .download__text {
+    width: 85%;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .social__title {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  .social__icons img {
+    width: 32px;
+    height: 32px;
+  }
+  .social_wrapper {
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+  .social_card {
+    width: 37%;
+    margin-bottom: 20px;
+  }
+  .wrapp_title {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .wrapp_text {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .burger_menu a {
+    text-align: start;
+  }
+}
